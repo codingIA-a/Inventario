@@ -40,7 +40,7 @@ def menu_principal():
         opcion = input("Ingrese el número de la opción deseada: ")
 
         
-
+menu_principal()
 
 
 
