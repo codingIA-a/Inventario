@@ -1,11 +1,12 @@
 
 
 """
-crear un simulador de inventario para una tienda ficticia. 
+Crear un simulador de inventario para una tienda ficticia. 
 El programa debe permitir agregar productos y mostrar el inventario .
 Para resolver esto deberá:
 1.-Crear  una función para agregar productos al inventario.
 2.-Crear una función para mostrar TODO el inventario.
+3.-Deberá integrar las funciones al menú_principal() para realizar la operación correspondiente tomando la entrada de usuario
 """
 
 
@@ -21,6 +22,14 @@ inventario = {
 #Si el producto existe, deberá sumar el stock existente y actualizar el precio de ser necesario
 
 
+
+#función agregar producto
+
+
+
+
+#función mostrar inventario
+
 def menu_principal():
     while True:
         print("\n----- Menú Principal -----")
@@ -33,6 +42,6 @@ def menu_principal():
         
 
 
-menu_principal()
+
 
 
